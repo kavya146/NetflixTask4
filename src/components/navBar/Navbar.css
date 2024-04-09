@@ -1,0 +1,20 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+   
+}
+.nav-container{
+    background-color: white;
+    border-radius: 10px;
+}
+.list a{
+    color: #333;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+}
