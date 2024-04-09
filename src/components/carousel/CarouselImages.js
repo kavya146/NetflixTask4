@@ -48,6 +48,7 @@ const CarouselImages = ({ title, images = [] }) => {
           {images.map((obj) => (
             <img src={obj.url} />
           ))}
+          <div>hello</div>
         </div>
 
         <button className="handle handle-right">

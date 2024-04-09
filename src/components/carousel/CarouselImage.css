@@ -11,15 +11,19 @@
 .container{
     display: flex;
     justify-content: center;
-    overflow: hidden;
+    
 }
 .slider img{
     flex:0 0 25%;        /* 0=flex-grow 0=flex-shrink 25=flex-basis*/
     max-width: 25%;
-    aspect-ratio: 16/9;
+   
     padding: 3px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform 550ms ease-in-out;
 }
+
+
 
 .handle{
     border: none;
@@ -61,5 +65,7 @@
     color: #999988;
 }
 .slider img:hover{
-    transform: scaleY(1.5);
+    transform: scale(1.5);
+  
 }
+
